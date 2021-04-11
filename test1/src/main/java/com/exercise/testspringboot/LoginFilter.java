@@ -20,7 +20,7 @@ public class LoginFilter implements Filter {
         HttpServletRequest req = (HttpServletRequest) servletRequest;
         HttpServletResponse response = (HttpServletResponse) servletResponse;
         String username = req.getParameter("username");
-        if ("aaa".equals(username)) {
+        if ("aaaa".equals(username)) {
             filterChain.doFilter(servletRequest, servletResponse);
         }
 
